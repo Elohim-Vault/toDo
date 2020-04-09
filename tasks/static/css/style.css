@@ -1,0 +1,180 @@
+.navbar {
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+
+}
+
+.navbar-nav{
+    margin: auto;
+    
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav a.nav-link{
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/* Botão de adicionar */
+
+#url-link{
+    text-decoration: none;
+    color: white;
+}
+
+.add-div {
+    background-color: #3476e2;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 25px;
+    color: #FFF;   
+}
+
+#navbarSupportedContent{
+    height: 70px;
+}
+
+/* Search */
+
+.fas.fa-search {
+    position: absolute;
+    top: 12px;
+    right: 26px;
+    cursor: pointer;
+}
+
+.search-div {
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/* Filtro  */
+
+.filter-div{
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+#filter{
+    display: inline-block;
+    width: 200px;
+    margin-left: 10px;
+}
+/* Lista de tarefas */
+
+.container{
+    position: absolute;
+    left: 51%;
+    transform: translateX(-50%);
+    top: 15%;
+}
+
+.list-div {
+    padding: 0;
+}
+
+.task-list {
+    padding-left: 0;
+}
+
+.task-item {
+    list-style: none;
+    font-size: 20px;
+    height: 60px;
+    padding: 0 15px;
+    padding-top: 10px;
+    border-bottom: 1px dashed #ccc
+}
+
+.fas.fa-trash, .fas.fa-edit, .fas.fa-check{
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+}
+
+.fas.fa-trash {
+    color: #db1e47;
+}
+
+.fas.fa-edit {
+    color: #13c43f;
+
+}
+
+
+.task-item.done{
+    background-color: #ccc;
+}
+
+.fas.fa-check {
+    color: #CCC;
+}
+
+.done .fas.fa-check {
+   color: #3476e2;
+}
+/* rodapé */
+
+footer{
+    width: 100%;
+
+    position: absolute;
+    background-color: #333;
+    height: 180px;
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+    border-top: 2px solid #202020;
+}
+
+footer p{
+    color: #f5f5ff;
+    text-align: center;
+    top: 50%;
+    position: relative;
+}
+
+ul.messages {
+    padding: 0;
+}
+
+ul.messages li{
+    list-style: none;
+}
+
+
+/* Paginação */
+
+.pagination {
+    margin-bottom: 20px;
+}
+
+.step-links {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.step-links .current{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Login */
+
+.auth-card{
+    margin-bottom: 30px;
+}
+
+.change-form-p{
+    margin-top: 20px;
+    text-align: center;
+}
